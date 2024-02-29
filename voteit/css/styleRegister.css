@@ -1,9 +1,7 @@
-.logo { width: 8%;}
-
 .tarjetaRegistro {
     width: 500px;
     min-height: 500px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     position: absolute;
