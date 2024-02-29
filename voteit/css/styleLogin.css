@@ -5,7 +5,7 @@
 .tarjetaLogin {
     width: 500px;
     max-height: 500px;
-    border-radius: 20px;
+    border-radius: 5px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     position: absolute;
