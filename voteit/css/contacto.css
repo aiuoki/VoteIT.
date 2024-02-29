@@ -39,7 +39,7 @@ body {
 }
 
 .footer {
-    margin-top: 30%;
+    margin-top: 10%;
     border: 2px solid #555;
     padding: 1em;
     margin-left: 15%;
@@ -51,3 +51,39 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.cuerpo{
+    width: 100%;
+    display: flex;
+}
+
+h1{margin-bottom: -5px;}
+h2{margin-bottom: -5px;}
+#texto{font-size: 14px; font-weight: 700;}
+
+#BIzquierda{width: 75%; padding: 30px; display: block;}
+#Linea{width: 90%; float: left;}
+
+#Formulario{display: block; font-size: 20px; font-weight: bold;}
+#BSuperior{display: flex;}
+#Apellidos{ margin-left: 260px;}
+
+#InputNA{ height: 30px;}
+#InputAsunto{height: 30px;}
+#InputMensaje{height: 50px;}
+
+#BEnviar{
+    background-color: rgb(102, 102, 102);
+    width: 100px;
+    font-size: 18px; 
+    color: #fff; 
+    padding: 15px;
+    border: 1px solid rgb(89, 89, 89);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+}
+
+#BEnviar:hover{transform: scale(1.05); box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);}
+
+#BDerecha{width: 23%; padding: 30px; display: block; margin-top: 7px;}
+#Linea2{width: 100%; float: left;}
