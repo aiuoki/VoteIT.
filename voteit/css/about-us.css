@@ -27,6 +27,8 @@ body {
     align-items: center;
 }
 
+.boton:hover{transform: scale(1.05); background-color: #f0f5f1;}
+
 .main {
     margin-left: 15%;
     margin-right: 15%;
