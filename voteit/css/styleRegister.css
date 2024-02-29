@@ -8,16 +8,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 30px 0;
+    padding: 15px 0;
     box-shadow: 0 0 10px #046913;
 }
 
 .titulo {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     color: #046913;
-    padding-top: 10px;
 }
+
 
 h3{
     font-size: 15px;
