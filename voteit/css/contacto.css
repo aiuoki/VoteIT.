@@ -40,7 +40,7 @@ body {
 }
 
 .footer {
-    margin-top: 10%;
+    margin-top: 5%;
     border: 2px solid #555;
     padding: 1em;
     margin-left: 15%;
@@ -75,9 +75,15 @@ a {
     border: 1px solid rgb(89, 89, 89);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s;
+    border-radius: 3px;
 }
 
 .enviar:hover{transform: scale(1.05); box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);}
 
 #BDerecha{width: 23%; padding: 30px; display: block; margin-top: 7px;}
 #Linea2{width: 100%; float: left;}
+
+label {
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
