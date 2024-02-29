@@ -39,7 +39,7 @@ button {
     background-color: #046913;
     color: white;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 30px;
     font-weight: bold;
     font-size: 16px;
     font-family: "Roboto Mono", monospace;
@@ -52,7 +52,6 @@ button:hover {
 }
 
 p {
-    margin-top: 25px;
     font-weight: bold;
     color: #695E5E;
 
