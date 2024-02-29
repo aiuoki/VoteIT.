@@ -88,9 +88,13 @@ a::after {
     transform-origin: center;
     transition: transform .25s;
     
-  }
+}
 
-  a:hover::after {
+a:hover::after {
     transform: scale(1,1);
-    background-color: #046913   ;
-  }
+    background-color: #046913;
+}
+
+p, a {
+    font-family: "Roboto Mono", monospace;
+}
