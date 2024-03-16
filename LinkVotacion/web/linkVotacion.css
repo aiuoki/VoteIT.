@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header {
+    box-sizing: border-box;
+    padding: 16px;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.button button {
+    border: 0;
+    border-radius: 20px;
+    min-width: 60px;
+    min-height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.login {
+    background: #fffefe;
+}
+.login:hover {
+    background: #938e8e;
+}
+.login div {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+.container1{
+    position: fixed;
+    bottom: 700px;
+    right: 0;
+    margin-bottom: 20px; 
+    margin-right: 100px;  
+}
+
+.container2{
+    position: fixed;
+    bottom: 700px;
+    right: 0;
+    margin-bottom: 23px; 
+    margin-right: 170px;
+}
+
+.la {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111;
+    border-radius: 20px;
+}
+.la:hover {
+    text-decoration: underline;
+    background:#938e8e ;
+}
+
+.links {
+    display: flex;
+    margin-left: -8px;
+}
+
+.link {
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card li {
+    margin-bottom: 10px;
+   
+}
+
+.card input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.confirm-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 150px;
+}
+
+.confirm-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
